@@ -1,0 +1,177 @@
+*{
+	margin 0px;
+	padding 0px;
+}
+header,nav,section,main,footer{
+	display: block;
+}
+a{text-decoration:none;}
+
+body {
+    overflow-x:hidden;
+}
+header{
+	background-color: #1b1e26;
+	width:100%;
+	width:1280px;
+	height:62px;
+}
+.logo{
+	width:295px;
+	height:60px;
+	margin-left:90px;
+    padding-top: 5px;
+}
+.name{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color:green;
+	font-size:36px;
+}
+.family_name{
+	font-family: 'Indie Flower', cursive;
+	color:white;
+	font-size:27px;
+	padding-left:4px;
+}
+nav{
+	width:100%;
+ 	height:37px;
+ 	line-height:37px;
+    color: #8e959c;
+	font-size:24px;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
+}
+nav a:first-child{margin-left:94px;}
+nav a{
+	margin-right:70px;
+	color: #8e959c;
+}
+nav a:hover{color:#57595a;}
+
+
+.cover{
+	display:block;
+ 	background: url('../images/cover.jpg') no-repeat;
+	width:1280px;
+	height:426px;
+	
+}
+
+main{
+	font-family: 'Indie Flower', cursive;
+	width:1280px;
+	height:583px;
+	color:#8e959c;
+	font-size:30px;
+	padding-left:70px;
+    padding-top:27px;
+
+}
+
+.main_name{
+    padding-left:16px;
+}
+.main_status{
+	display:block;
+	width:318px;
+	height:248px;
+    margin-left: 16px;
+    margin-top: 16px;
+    border-width:2px;  
+    border-bottom:double;
+    border-left:solid;
+    border-right: solid;
+    border-top:solid; 
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    
+     
+}
+.photo_skills{
+	width:320px;
+	height:180px;
+	margin-left:16px;
+    margin-top:16px;
+}
+
+.comment_photo{ 
+    display:flex;    
+	width:286px;	
+    border: black solid 0px;
+}
+
+.comment_text{
+    display:block;
+    width:100%;
+	font-size:12px;
+	font-family:Arial;
+    color:#454e5c;
+    margin-left:12px;
+}
+.grey_text{
+    width:100%;
+    display:block;
+    color:#9da3a9;
+    font-size:10px;
+	font-family:Arial;
+    margin-top:2px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: black;
+    margin-top:70px;
+    width:90%;
+    margin-left:18px;
+} 
+.circle_photo{
+    margin-top:35px;
+    display:flex;
+    width:100%;
+    height:50px;
+    margin-left:18px;
+
+      
+}
+.grey_text_circle{
+    color:#d8dbdf;
+    font-size:12px;
+    font-family:Arial;
+    margin-left: 12px;
+}
+.comment_text_circle{
+    color:#55606e;
+    font-size:12px;
+    font-family:Arial;
+}
+footer{
+	width:1187px;
+	height:244px;
+    background-color:#24272e;
+    font-family:'Barlow';
+    font-size:24px;
+    padding-left:90px;
+    color:#8e959c;
+    padding-top:40px;
+}
+.footer_skills{
+    color:white;    
+}
+.footer_bottom{
+    display:block;
+	width:1280px;
+	height:92px;
+    background-color:white;
+    margin-left:90px;
+    padding-top:24px;
+    color:#333333;
+    font-size:24px;
+}
+.footer_bottom a{margin-right:70px;color:#8e959c;}
+.footer_bottom a:hover{color:#57595a}
